@@ -10,7 +10,7 @@ export class BookService {
 
   constructor() { }
 
-  addBooke(book: Book): Observable<Book> {
+  addBook(book: Book): Observable<Book> {
     return of(book);
   }
 
